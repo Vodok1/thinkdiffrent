@@ -210,6 +210,7 @@ nav ul {
 }
 .shop h1 {
   width: 100%;
+  box-shadow: 10px 10px 76px 0px rgba(0, 0, 0, 0.4);
   background-color: blanchedalmond;
   padding: 2rem;
   text-align: center;
@@ -287,6 +288,7 @@ nav ul {
   width: 100%;
 }
 .contact h1 {
+  box-shadow: 10px 10px 76px 0px rgba(0, 0, 0, 0.4);
   width: 100%;
   background-color: blanchedalmond;
   padding: 2rem;
@@ -360,7 +362,7 @@ footer span {
   margin-right: 15px;
 }
 .nav-scrollnav {
-  background: url(/pic/navmoved.svg);
+  background: url(./pic/navmoved.svg);
   height: 40px;
 }
 .logo-small {
