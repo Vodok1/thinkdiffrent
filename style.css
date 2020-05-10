@@ -364,6 +364,7 @@ footer span {
 .nav-scrollnav {
   background: url(/pic/navmoved.svg);
   height: 40px;
+  background-size: cover;
 }
 .logo-small {
   scale: 0.8;
