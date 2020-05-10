@@ -74,6 +74,10 @@ nav ul {
   top: 40%;
   font-size: 2rem;
 }
+.secondtext a {
+  text-decoration: none;
+  color: black;
+}
 .social-icons {
   scale: 1.5;
   transition: ease 0.3s all;
