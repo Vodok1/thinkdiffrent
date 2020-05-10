@@ -57,40 +57,27 @@ nav ul {
   top: 40%;
   font-size: 2rem;
 }
-.dolnaniebieska {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-.dolnazolta {
-  pointer-events: none;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-}
 .social-icons {
   scale: 1.5;
   transition: ease 0.3s all;
 }
 #fbicon {
   position: absolute;
-  bottom: 6%;
-  right: 10%;
+  bottom: 60px;
+  right: 5%;
   z-index: 1;
 }
 #twicon {
   position: absolute;
-  bottom: 8%;
-  right: 19%;
+  bottom: 60px;
+  right: 25%;
+
   z-index: 1;
 }
 #insticon {
   position: absolute;
-  bottom: 6%;
-  right: 30%;
+  bottom: 60px;
+  right: 15%;
   z-index: 1;
 }
 .social-icons:hover {
@@ -98,6 +85,94 @@ nav ul {
   scale: 1.8;
   transform: translateY(-20px);
 }
+/*animations*/
+.wave1 {
+  pointer-events: none;
+  z-index: 999;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./pic/wave1.png);
+  background-size: 1000px 100px;
+  animation: animate1 20s linear infinite;
+}
+.wave2 {
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./pic/wave2.png);
+  background-size: 1000px 100px;
+  animation: animate2 20s linear infinite;
+  animation-delay: -5s;
+}
+.wave3 {
+  pointer-events: none;
+  z-index: 1;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./pic/wave1.png);
+  background-size: 1000px 100px;
+  animation: animate3 20s linear infinite;
+  animation-delay: -10s;
+  opacity: 0.5;
+}
+.wave4 {
+  pointer-events: none;
+  z-index: 0;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(./pic/wave2.png);
+  background-size: 1000px 100px;
+  animation: animate4 8s linear infinite;
+  animation-delay: -5s;
+  opacity: 0.5;
+}
+@keyframes animate1 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: -1000px;
+  }
+}
+@keyframes animate3 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+@keyframes animate4 {
+  0% {
+    background-position-x: 0px;
+  }
+  100% {
+    background-position-x: 1000px;
+  }
+}
+/*shop section*/
 .shop {
   font-family: "Roboto";
   padding-top: 4rem;
