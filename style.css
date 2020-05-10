@@ -209,6 +209,8 @@ nav ul {
   align-items: center;
 }
 .shop h1 {
+  width: 100%;
+  background-color: blanchedalmond;
   padding: 2rem;
   text-align: center;
   font-size: 38px;
@@ -285,6 +287,8 @@ nav ul {
   width: 100%;
 }
 .contact h1 {
+  width: 100%;
+  background-color: blanchedalmond;
   padding: 2rem;
   text-align: center;
   font-size: 38px;
